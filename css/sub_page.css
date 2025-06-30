@@ -110,9 +110,8 @@
   padding: 0 10px;
 }
 .banner-text.bt{
-  max-width: 1200px;
-  margin: 0 auto;
-
+  justify-content: flex-end;
+  padding-bottom: 50px;
 }
 .banner-text h2{
   font-size: var(--text-size-52);
@@ -149,7 +148,7 @@
   margin-bottom: 40px;
 }
 .mb-50{
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
 .mb-80{
   margin-bottom: 80px;
