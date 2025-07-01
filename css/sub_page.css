@@ -302,6 +302,10 @@
   font-size: var(--text-size-18);
 
 }
+.img-info-long-text .small{
+  font-size: var(--text-size-18);
+
+}
 .img-info-long-text.w-60{
   width: 60%;
 }
@@ -1453,6 +1457,9 @@ ul .swiper-txt p{
     font-size: var(--text-size-18);
   }
   .img-info-long-text.small{
+    font-size: var(--text-size-16);
+  }
+  .img-info-long-text .small{
     font-size: var(--text-size-16);
   }
   .banner-text h2{
