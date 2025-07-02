@@ -1389,6 +1389,30 @@ ul .swiper-txt p{
   }
 }
 @media screen and (max-width: 720px) {
+  .basic-box-title{
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+    overflow: visible;
+    gap: 5px;
+  }
+  .basic-box-title li{
+    width: 100%;
+    border: 1px solid #78b2c4;
+    border-radius: 50px;
+  }
+  .basic-box-title li:first-child{
+    padding: 15px 20px;
+  }
+  .mo-50{
+    width: 50% !important;
+  }
+  .mo-40{
+    width: 40% !important;
+  }
+  .mo-block{
+    display: block;
+  }
   .mo-mb-7-3{
     margin-top: 2px;
   }
